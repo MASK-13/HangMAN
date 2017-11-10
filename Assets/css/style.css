@@ -1,0 +1,113 @@
+
+body {
+  background-color:rgb(248, 245, 245);
+  color:rgb(0, 0, 0);
+  height:100%;
+  text-align:center;
+  font-size:18px;
+}
+
+.wrappper{
+  width:100%;
+  margin:0 auto;
+}
+
+
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+   margin:5px 0;
+}
+
+h1 {
+	font-size: 2.6em;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+p{
+  font-size: 1.0em;
+}
+
+#alphabet {
+  /* margin:15px auto; */
+  padding:0;
+  max-width:200px;
+  float:left;
+  position: fixed;
+}
+
+#alphabet li {
+  float:left;
+  margin: 0 10px 10px 0;
+  list-style:none;
+  width:35px;
+  height:30px;
+  padding-top:10px;
+  background:rgb(192, 158, 158);
+  cursor:pointer;
+  border: solid 1px white;
+
+}
+
+.clicked {
+  display: none;
+    
+}
+
+#WordBlanks {
+  margin: 0;
+  display: block;
+  padding: 0;
+  display:block;
+
+}
+
+#WordBlanks li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size:1.6em;
+}
+
+.active {
+  cursor:default;
+  background-color: black;
+}
+
+#livesCounter{
+  font-size:1.6em;
+  text-align:center;
+  display:block;
+}
+
+button{
+  background:base-color;
+  color:rgb(0, 0, 0);
+  border: solid 1px white;
+  text-decoration:none;
+  cursor:pointer;
+  font-size:1.2em;
+  padding:18px 10px;
+  width:180px;
+  margin: 10px;
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  #alphabet {
+  padding:0 0 0 15px;
+}
+  }
+
+  @media (max-width: 480px) {
+  #alphabet {
+  padding:0 0 0 25px;
+}
+  }
