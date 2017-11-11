@@ -14,7 +14,7 @@ window.onload = function () {
       var lives ;             // Lives
       var RightCnt ;           // Count RightGuess arrGuesses
       var imgcount=0;         //img counter
-      var imgSrcBase = "Images/";
+      var imgSrcBase = "Assets/images/";
       var imgSrcEnd = ".png";
 
 
@@ -108,13 +108,13 @@ window.onload = function () {
        function play () {
         arrWords = [
           "lumber"	,
-          "undress"	,
+          "unibrow"	,
           "work"	,
           "health"	,
           "stove"	,
           "humdrum"	,
           "pie"	,
-          "erect"	,
+          "direct"	,
           "nutty"	,
           "dysfunctional"	,
           "tramp"	,
