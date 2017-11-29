@@ -1,26 +1,19 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Hang-MAN</title>
-  <script src="Assets/javascript/game.js"></script>
-  <link rel="stylesheet" type="text/css" href= "Assets/css/style.css">
-
+    <script src="Assets/javascript/game.js"></script>
+    <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
 </head>
-
 <body>
-
-<div id="gameMain">
-  <div class="wrapper">
-    <h1>Hang-MAN</h1>
-    <p> You know the DEAL PICK a LETTER </p>
-    <div id= "alphabuttons">
-       <img id="manImg" src="Assets/images/0.png" alt="">
-  </div>
-<div id="man">
-    </div>
-    <div class="wrapper">
+        <div id="gameMain">
+                <div class="wrapper">
+                        <h1>Hangman</h1>
+                        <div id="alphabuttons">
+                        </div>
+                        <div id="man">
+                            <img id="manImg" src="Assets/images/0.png" alt="">
+                        </div>
+                         
+                     <div class="wrapper">
                          <div id="hold">
                          </div>
                          <p id="livesCounter"></p>
@@ -31,5 +24,46 @@
 
                 </div>
         </div>
+    <div class='panel-body'>
+
+            </div>
+
+          </div>
+
+          <div class='panel panel-default'>
+            <div class='panel-body'>
+          </div>
+
+          <div class='panel panel-default'>
+
+            <div class='panel-body'>
+
+             
+              <strong>Wins: </strong> <span id='win-counter'>0</span>
+
+            </div>
+
+          </div>
+
+          <div class='panel panel-default'>
+            <div class='panel-body'>
+
+            
+              <strong>Losses: </strong> <span id='loss-counter'>0</span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+   
+    <script src='Assets/javascript/game.js'></script>
+
 </body>
+
 </html>
